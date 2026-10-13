@@ -1,19 +1,19 @@
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
-![Academic Pages template example](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip "Academic Pages template example")
+![Academic Pages template example](https://adnankhan010.github.io "Academic Pages template example")
 
 # Getting Started
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username]https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip", which will also be your website's URL.
+1. On the "New repository" page, enter your repository name as "[your GitHub username]https://adnankhan010.github.io", which will also be your website's URL.
 1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username]https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip
+1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username]https://adnankhan010.github.io
 1. Check status by going to the repository settings, in the "GitHub pages" section
 1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-See more info at https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip
+See more info at https://adnankhan010.github.io
 
 ## Running locally
 
@@ -22,7 +22,7 @@ When you are initially working on your website, it is very useful to be able to 
 1. Clone the repository and made updates as detailed above.
 1. Make sure you have ruby-dev, bundler, and nodejs installed
     
-    On most Linux distribution and [Windows Subsystem Linux](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip) the command is:
+    On most Linux distribution and [Windows Subsystem Linux](https://adnankhan010.github.io) the command is:
     ```bash
     sudo apt install ruby-dev ruby-bundler nodejs
     ```
@@ -38,9 +38,9 @@ When you are initially working on your website, it is very useful to be able to 
     brew install node
     gem install bundler
     ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip and try again.
+1. Run `bundle install` to install ruby dependencies. If you get errors, delete https://adnankhan010.github.io and try again.
 
-    If you see file permission error like `Fetching https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
+    If you see file permission error like `Fetching https://adnankhan010.github.io ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
     Install Gems Locally (Recommended):
     ```bash
     bundle config set --local path 'vendor/bundle'
@@ -54,7 +54,7 @@ If you are running on Linux it may be necessary to install some additional depen
 
 ## Using Docker
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip) installed.
+Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://adnankhan010.github.io) installed.
 
 You can build and execute the container by running the following command in the repository:
 
@@ -66,24 +66,24 @@ You should now be able to access the website from `localhost:4000`.
 
 # Maintenance
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip).
+Bug reports and feature requests to the template should be [submitted via GitHub](https://adnankhan010.github.io). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://adnankhan010.github.io).
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip) from the [Minimal Mistakes Jekyll Theme](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip), which is © 2016 Michael Rose and released under the MIT License (see https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip). It is currently being maintained by [Robert Zupko](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip) and additional maintainers would be welcomed.
+This repository was forked (then detached) by [Stuart Geiger](https://adnankhan010.github.io) from the [Minimal Mistakes Jekyll Theme](https://adnankhan010.github.io), which is © 2016 Michael Rose and released under the MIT License (see https://adnankhan010.github.io). It is currently being maintained by [Robert Zupko](https://adnankhan010.github.io) and additional maintainers would be welcomed.
 
 ## Bugfixes and enhancements
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip) of template to your fork as well.
+If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://adnankhan010.github.io) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://adnankhan010.github.io) of template to your fork as well.
 
 Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
 
 ---
 <div align="center">
     
-![pages-build-deployment](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip)
-[![GitHub contributors](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip)](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip)
-[![GitHub release](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip)](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip)
-[![GitHub license](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip)](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip)
+![pages-build-deployment](https://adnankhan010.github.io)
+[![GitHub contributors](https://adnankhan010.github.io)](https://adnankhan010.github.io)
+[![GitHub release](https://adnankhan010.github.io)](https://adnankhan010.github.io)
+[![GitHub license](https://adnankhan010.github.io)](https://adnankhan010.github.io)
 
-[![GitHub stars](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip)](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip)
-[![GitHub forks](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip)](https://github.com/Adnankhan010/adnankhan.github.io/raw/refs/heads/master/_sass/vendor/susy/adnankhan_github_io_3.9.zip)
+[![GitHub stars](https://adnankhan010.github.io)](https://adnankhan010.github.io)
+[![GitHub forks](https://adnankhan010.github.io)](https://adnankhan010.github.io)
 </div>
